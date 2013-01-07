@@ -10,6 +10,10 @@ Contents
 * Hash Tables
 	* Linear Probing Hash Table (com.paulormg.ds.hashtable.LinearProbingHashTable)
 	* Separate Chaining Hash Table (com.paulormg.ds.hashtable.SeparateChainingHashTable)
+* Queues
+	* Array-based queue (com.paulormg.ds.queue.ArrayQueue)
+	* Linked-list-based queue (com.paulormg.ds.queue.LinkedListQueue)
+
 
 Structure
 ---------
