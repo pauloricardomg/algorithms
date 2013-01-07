@@ -13,6 +13,9 @@ Contents
 * Queues
 	* Array-based queue (com.paulormg.ds.queue.ArrayQueue)
 	* Linked-list-based queue (com.paulormg.ds.queue.LinkedListQueue)
+* Stacks
+	* Array-based stack (com.paulormg.ds.stack.ArrayStack)
+	* Linked-list-based stack (com.paulormg.ds.stack.LinkedListStack)
 
 
 Structure
