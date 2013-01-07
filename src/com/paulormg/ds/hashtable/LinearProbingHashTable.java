@@ -1,4 +1,4 @@
-package com.paulormg.algorithms.hashtable;
+package com.paulormg.ds.hashtable;
 
 public class LinearProbingHashTable<K, V> implements HashTable<K, V>{
 

@@ -8,8 +8,8 @@ Contents
 ---------
 
 * Hash Tables
-	* Linear Probing Hash Table (com.paulormg.algorithms.hashtable.LinearProbingHashTable)
-	* Separate Chaining Hash Table (com.paulormg.algorithms.hashtable.SeparateChainingHashTable)
+	* Linear Probing Hash Table (com.paulormg.ds.hashtable.LinearProbingHashTable)
+	* Separate Chaining Hash Table (com.paulormg.ds.hashtable.SeparateChainingHashTable)
 
 Structure
 ---------

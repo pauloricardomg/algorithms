@@ -1,4 +1,4 @@
-package com.paulormg.algorithms.hashtable;
+package com.paulormg.ds.hashtable;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -7,12 +7,14 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class LinearProbingHashTableTest {
+import com.paulormg.ds.hashtable.SeparateChainingHashTable;
+
+public class SeparateChainingHashTableTest {
 
 	@Test
 	public void testPutGetContainsAndSize() {
 		final int CAPACITY = 5;
-		LinearProbingHashTable<Integer, String> table = new LinearProbingHashTable<Integer, String>(CAPACITY);
+		SeparateChainingHashTable<Integer, String> table = new SeparateChainingHashTable<Integer, String>(CAPACITY);
 		
 		assertEquals(0, table.size());
 		assertFalse(table.contains(0));
@@ -29,7 +31,7 @@ public class LinearProbingHashTableTest {
 		assertEquals(2, table.size());
 		assertTrue(table.contains(Integer.MIN_VALUE));
 		assertEquals("min infinity", table.get(Integer.MIN_VALUE));	
-		assertEquals(CAPACITY, table.getCapacity());
+		assertEquals(CAPACITY, table.getCapacity());	
 		assertEquals("zero", table.get(0));	
 		
 		table.put(Integer.MAX_VALUE, "max infinity");
@@ -53,7 +55,7 @@ public class LinearProbingHashTableTest {
 	@Test
 	public void testRemove() {
 		final int CAPACITY = 1;
-		LinearProbingHashTable<Integer, String> table = new LinearProbingHashTable<Integer, String>(CAPACITY);
+		SeparateChainingHashTable<Integer, String> table = new SeparateChainingHashTable<Integer, String>(CAPACITY);
 		
 		assertNull(table.remove(0));
 		assertEquals(0, table.size());

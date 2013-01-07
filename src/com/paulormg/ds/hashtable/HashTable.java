@@ -1,4 +1,4 @@
-package com.paulormg.algorithms.hashtable;
+package com.paulormg.ds.hashtable;
 
 public interface HashTable<K, V> {
 
