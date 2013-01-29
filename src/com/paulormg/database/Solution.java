@@ -267,6 +267,8 @@ public class Solution {
 
 		boolean insertion = true;
 
+		StringBuilder output = new StringBuilder();
+		
 		String line;
 		String[] row;
 		while (sc.hasNextLine()){
@@ -285,9 +287,11 @@ public class Solution {
 				db.addRow(row);
 			} else {
 				String result = query(db, line);
-				System.out.print(result);
+				output.append(result);
 			}
 		}
+		
+		System.out.print(output.toString().trim());
 
 		sc.close();
 	}
